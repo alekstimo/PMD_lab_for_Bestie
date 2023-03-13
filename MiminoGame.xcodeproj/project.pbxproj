@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E67B0F229BF11600072D32A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67B0F129BF11600072D32A /* AppDelegate.swift */; };
+		6E67B0FB29BF11630072D32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B0FA29BF11630072D32A /* Assets.xcassets */; };
+		6E67B0FE29BF11630072D32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B0FC29BF11630072D32A /* LaunchScreen.storyboard */; };
+		6E67B10C29BF125C0072D32A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67B10A29BF125C0072D32A /* MainViewController.swift */; };
+		6E67B10D29BF125C0072D32A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B10B29BF125C0072D32A /* MainViewController.xib */; };
+		6E67B11129BF12AA0072D32A /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67B10F29BF12AA0072D32A /* MainTableViewCell.swift */; };
+		6E67B11229BF12AA0072D32A /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B11029BF12AA0072D32A /* MainTableViewCell.xib */; };
+		6E67B11629BF2EAE0072D32A /* MainButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67B11429BF2EAE0072D32A /* MainButtonViewController.swift */; };
+		6E67B11729BF2EAE0072D32A /* MainButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B11529BF2EAE0072D32A /* MainButtonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E67B0EE29BF11600072D32A /* MiminoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiminoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E67B0F129BF11600072D32A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E67B0FA29BF11630072D32A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E67B0FD29BF11630072D32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E67B0FF29BF11630072D32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E67B10A29BF125C0072D32A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6E67B10B29BF125C0072D32A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		6E67B10F29BF12AA0072D32A /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		6E67B11029BF12AA0072D32A /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		6E67B11429BF2EAE0072D32A /* MainButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonViewController.swift; sourceTree = "<group>"; };
+		6E67B11529BF2EAE0072D32A /* MainButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainButtonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E67B0EB29BF11600072D32A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E67B0E529BF11600072D32A = {
+			isa = PBXGroup;
+			children = (
+				6E67B0F029BF11600072D32A /* MiminoGame */,
+				6E67B0EF29BF11600072D32A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E67B0EF29BF11600072D32A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E67B0EE29BF11600072D32A /* MiminoGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E67B0F029BF11600072D32A /* MiminoGame */ = {
+			isa = PBXGroup;
+			children = (
+				6E67B11329BF2E860072D32A /* DopMainModule */,
+				6E67B10529BF122E0072D32A /* MainModule */,
+				6E67B0F129BF11600072D32A /* AppDelegate.swift */,
+				6E67B0FA29BF11630072D32A /* Assets.xcassets */,
+				6E67B0FC29BF11630072D32A /* LaunchScreen.storyboard */,
+				6E67B0FF29BF11630072D32A /* Info.plist */,
+			);
+			path = MiminoGame;
+			sourceTree = "<group>";
+		};
+		6E67B10529BF122E0072D32A /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				6E67B10E29BF128F0072D32A /* Cell */,
+				6E67B10A29BF125C0072D32A /* MainViewController.swift */,
+				6E67B10B29BF125C0072D32A /* MainViewController.xib */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		6E67B10E29BF128F0072D32A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6E67B10F29BF12AA0072D32A /* MainTableViewCell.swift */,
+				6E67B11029BF12AA0072D32A /* MainTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6E67B11329BF2E860072D32A /* DopMainModule */ = {
+			isa = PBXGroup;
+			children = (
+				6E67B11429BF2EAE0072D32A /* MainButtonViewController.swift */,
+				6E67B11529BF2EAE0072D32A /* MainButtonViewController.xib */,
+			);
+			path = DopMainModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E67B0ED29BF11600072D32A /* MiminoGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E67B10229BF11630072D32A /* Build configuration list for PBXNativeTarget "MiminoGame" */;
+			buildPhases = (
+				6E67B0EA29BF11600072D32A /* Sources */,
+				6E67B0EB29BF11600072D32A /* Frameworks */,
+				6E67B0EC29BF11600072D32A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiminoGame;
+			productName = MiminoGame;
+			productReference = 6E67B0EE29BF11600072D32A /* MiminoGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E67B0E629BF11600072D32A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6E67B0ED29BF11600072D32A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E67B0E929BF11600072D32A /* Build configuration list for PBXProject "MiminoGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E67B0E529BF11600072D32A;
+			productRefGroup = 6E67B0EF29BF11600072D32A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E67B0ED29BF11600072D32A /* MiminoGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E67B0EC29BF11600072D32A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E67B0FE29BF11630072D32A /* LaunchScreen.storyboard in Resources */,
+				6E67B10D29BF125C0072D32A /* MainViewController.xib in Resources */,
+				6E67B11729BF2EAE0072D32A /* MainButtonViewController.xib in Resources */,
+				6E67B11229BF12AA0072D32A /* MainTableViewCell.xib in Resources */,
+				6E67B0FB29BF11630072D32A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E67B0EA29BF11600072D32A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E67B0F229BF11600072D32A /* AppDelegate.swift in Sources */,
+				6E67B11629BF2EAE0072D32A /* MainButtonViewController.swift in Sources */,
+				6E67B11129BF12AA0072D32A /* MainTableViewCell.swift in Sources */,
+				6E67B10C29BF125C0072D32A /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E67B0FC29BF11630072D32A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E67B0FD29BF11630072D32A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E67B10029BF11630072D32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E67B10129BF11630072D32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E67B10329BF11630072D32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiminoGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.MiminoGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E67B10429BF11630072D32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiminoGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.MiminoGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E67B0E929BF11600072D32A /* Build configuration list for PBXProject "MiminoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E67B10029BF11630072D32A /* Debug */,
+				6E67B10129BF11630072D32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E67B10229BF11630072D32A /* Build configuration list for PBXNativeTarget "MiminoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E67B10329BF11630072D32A /* Debug */,
+				6E67B10429BF11630072D32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E67B0E629BF11600072D32A /* Project object */;
+}
