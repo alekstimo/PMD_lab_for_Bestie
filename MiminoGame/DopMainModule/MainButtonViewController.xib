@@ -10,20 +10,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainButtonViewController" customModule="MiminoGame" customModuleProvider="target">
             <connections>
-                <outlet property="button1" destination="rn9-XE-6gf" id="wgc-ge-2FL"/>
-                <outlet property="button10" destination="CiP-Yq-2fC" id="1lW-rL-zDh"/>
-                <outlet property="button11" destination="JXX-pB-piI" id="U82-ux-xu2"/>
-                <outlet property="button12" destination="8Hw-FI-sfF" id="a6R-Mv-ltm"/>
-                <outlet property="button2" destination="pKp-nB-JSK" id="mEk-HF-Rad"/>
-                <outlet property="button3" destination="H2z-H3-HSO" id="0wW-pz-wgw"/>
-                <outlet property="button4" destination="1BA-2w-X5m" id="3Fd-kW-PSF"/>
-                <outlet property="button5" destination="V9B-VQ-BD7" id="i46-d1-FHz"/>
-                <outlet property="button6" destination="m4L-b2-SAc" id="gvM-u4-xwZ"/>
-                <outlet property="button7" destination="Rca-ny-IDC" id="Qhc-7i-xbm"/>
-                <outlet property="button8" destination="pyu-ii-Clu" id="eWk-Y8-35h"/>
-                <outlet property="button9" destination="Cfu-w6-IyA" id="1rS-OK-7In"/>
+                <outlet property="flipCountLabel" destination="bXz-Hk-2U3" id="ycr-1L-l5f"/>
                 <outlet property="playAgainButton" destination="W3G-x0-QVR" id="mGh-pp-gV9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="cardButtons" destination="rn9-XE-6gf" collectionClass="NSMutableArray" id="6iE-AI-E97"/>
+                <outletCollection property="cardButtons" destination="pKp-nB-JSK" collectionClass="NSMutableArray" id="Uj3-t0-9CN"/>
+                <outletCollection property="cardButtons" destination="H2z-H3-HSO" collectionClass="NSMutableArray" id="IxA-aV-ZUB"/>
+                <outletCollection property="cardButtons" destination="1BA-2w-X5m" collectionClass="NSMutableArray" id="wNT-yk-LQA"/>
+                <outletCollection property="cardButtons" destination="V9B-VQ-BD7" collectionClass="NSMutableArray" id="EFA-EL-D8l"/>
+                <outletCollection property="cardButtons" destination="m4L-b2-SAc" collectionClass="NSMutableArray" id="kfZ-Iw-XxU"/>
+                <outletCollection property="cardButtons" destination="Rca-ny-IDC" collectionClass="NSMutableArray" id="JYP-XU-mQ1"/>
+                <outletCollection property="cardButtons" destination="pyu-ii-Clu" collectionClass="NSMutableArray" id="iZS-6h-yOG"/>
+                <outletCollection property="cardButtons" destination="Cfu-w6-IyA" collectionClass="NSMutableArray" id="ZT7-J9-3bK"/>
+                <outletCollection property="cardButtons" destination="CiP-Yq-2fC" collectionClass="NSMutableArray" id="MfM-gE-4bI"/>
+                <outletCollection property="cardButtons" destination="JXX-pB-piI" collectionClass="NSMutableArray" id="GLF-dz-zTB"/>
+                <outletCollection property="cardButtons" destination="8Hw-FI-sfF" collectionClass="NSMutableArray" id="trp-Wc-KmR"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -40,7 +41,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="WcV-XG-Lee"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="KD9-kk-myS"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKp-nB-JSK">
@@ -52,7 +53,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="dNS-ke-LmP"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="47W-hG-XDs"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2z-H3-HSO">
@@ -64,7 +65,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="EoH-B4-jRE"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="LAI-i7-HTW"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BA-2w-X5m">
@@ -76,7 +77,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="1wB-VW-B4s"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="Pgt-f9-bAC"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9B-VQ-BD7">
@@ -88,7 +89,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="SAi-Dm-MSb"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="kxI-nT-PGF"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4L-b2-SAc">
@@ -100,7 +101,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="OWx-ZU-YGP"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="Upe-vy-bfo"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rca-ny-IDC">
@@ -112,7 +113,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="0II-0g-4Pi"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="xXv-YP-VG5"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyu-ii-Clu">
@@ -124,7 +125,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="cnX-gU-4yH"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="VIn-Za-cu7"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfu-w6-IyA">
@@ -136,7 +137,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="8tJ-Fo-Iat"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="bx4-7y-LjS"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CiP-Yq-2fC">
@@ -148,7 +149,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="heC-Lw-tCL"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="XJQ-Va-Xr7"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXX-pB-piI">
@@ -160,7 +161,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="OhL-zs-plW"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="bGO-8J-X7j"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Hw-FI-sfF">
@@ -172,7 +173,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="buttonPushed:" destination="-1" eventType="touchUpInside" id="jRQ-j5-05e"/>
+                        <action selector="touchCard:" destination="-1" eventType="touchUpInside" id="6Eo-C8-vQp"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3G-x0-QVR">
@@ -187,6 +188,12 @@
                         <action selector="playAgainButtonPushed:" destination="-1" eventType="touchUpInside" id="aeb-5E-J7n"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXz-Hk-2U3">
+                    <rect key="frame" x="175.66666666666666" y="149" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -196,6 +203,7 @@
                 <constraint firstItem="JXX-pB-piI" firstAttribute="centerY" secondItem="CiP-Yq-2fC" secondAttribute="centerY" id="8OH-hi-65y"/>
                 <constraint firstItem="Cfu-w6-IyA" firstAttribute="leading" secondItem="pyu-ii-Clu" secondAttribute="trailing" constant="20" id="8mF-jv-dzr"/>
                 <constraint firstItem="pKp-nB-JSK" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="9ce-EK-4DA"/>
+                <constraint firstItem="bXz-Hk-2U3" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="90" id="CCt-Sh-Ypt"/>
                 <constraint firstItem="pKp-nB-JSK" firstAttribute="centerY" secondItem="H2z-H3-HSO" secondAttribute="centerY" id="I4h-Fh-mzI"/>
                 <constraint firstItem="pKp-nB-JSK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="150" id="Noa-at-wP7"/>
                 <constraint firstItem="pyu-ii-Clu" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="PCG-xE-Q6M"/>
@@ -211,6 +219,7 @@
                 <constraint firstItem="JXX-pB-piI" firstAttribute="centerY" secondItem="8Hw-FI-sfF" secondAttribute="centerY" id="h6E-Ik-TL9"/>
                 <constraint firstItem="m4L-b2-SAc" firstAttribute="leading" secondItem="V9B-VQ-BD7" secondAttribute="trailing" constant="20" id="iBv-XJ-WGd"/>
                 <constraint firstItem="V9B-VQ-BD7" firstAttribute="leading" secondItem="1BA-2w-X5m" secondAttribute="trailing" constant="20" id="jEG-aG-PHP"/>
+                <constraint firstItem="bXz-Hk-2U3" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="kUk-np-zvE"/>
                 <constraint firstItem="V9B-VQ-BD7" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="mP1-J9-pN8"/>
                 <constraint firstItem="pKp-nB-JSK" firstAttribute="leading" secondItem="rn9-XE-6gf" secondAttribute="trailing" constant="20" id="oo5-5A-XYM"/>
                 <constraint firstItem="pKp-nB-JSK" firstAttribute="centerY" secondItem="rn9-XE-6gf" secondAttribute="centerY" id="rfZ-Ca-xRz"/>
